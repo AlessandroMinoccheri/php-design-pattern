@@ -6,5 +6,5 @@ The project is already in develop so sometimes I'll update It with a new pattern
 
 ## Creational
 
-
+* [Singleton](https://github.com/AlessandroMinoccheri/php-design-pattern/blob/master/Creational/Singleton/Singleton.md) 
  
