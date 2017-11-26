@@ -1,9 +1,11 @@
 <?php
 
-$italyFinance = new Italy();
-$italyVat = $italyFinance->getVat();
+$italyShop = new ItalianFactory();
+$italyVehicle = $italyShop->createVehicle();
+$italyCurrency = $italyVehicle->getCurrency();
 
-$irelandFinance = new Ireland();
-$irelandVat = $irelandFinance->getVat();
+$usaShop = new USAFactory();
+$usaVehicle = $usaShop->createVehicle();
+$usaCurrency = $usaVehicle->getCurrency();
 
-echo "\n Italy VAT: " . $italyVat . " Ireland VAT: " . $irelandVat;
+echo "\n UsaShop currency: " . $usaCurrency . " ItalyShop currency: " . $italyCurrency;
