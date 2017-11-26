@@ -8,4 +8,5 @@ The project is already in develop so sometimes I'll update It with a new pattern
 
 * [Singleton](https://github.com/AlessandroMinoccheri/php-design-pattern/blob/master/Creational/Singleton/Singleton.md) 
 * [Factory Method](https://github.com/AlessandroMinoccheri/php-design-pattern/blob/master/Creational/FactoryMethod/FactoryMethod.md) 
+* [Abstract Factory](https://github.com/AlessandroMinoccheri/php-design-pattern/blob/master/Creational/AbstractFactory/AbstractFactory.md) 
  
