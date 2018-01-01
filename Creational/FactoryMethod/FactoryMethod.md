@@ -23,4 +23,4 @@ A common consequence of the Factory method pattern is the creator classes mirror
 
 Another issue could be the creation of unnecessary subclasses.
 
-The Factory method pattern is often used with the Abstract Factory Pattern. 
+The Factory method pattern is often used with the * [Abstract Factory Pattern](https://github.com/AlessandroMinoccheri/php-design-pattern/blob/master/Creational/AbstractFactory/AbstractFactory.md)
