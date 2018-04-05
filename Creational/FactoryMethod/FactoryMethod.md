@@ -1,13 +1,13 @@
 # Factory Method
 
-The factory method solve the problem of how to create object instances when your code focuses on abstract types.
+The factory method solves the problem of how to create object instances when your code focuses on abstract types.
 
 ## When to use It
 
-You can use Factory method when for example you have a shop and many type of different products that share same method and have some customization.
+You can use Factory method when for example you have a shop and many type of different products that share same methods and have some customizations.
 For example you have a class Shop and two different nation managed: Italy and USA.
 
-Both Italy class Usa class have a currency: getCurrency so you need to implement It in both classes, those classes are child of Its factory that is an abstract class that defines methods.
+Both Italy class Usa class have a currency: getCurrency so you need to implement it in both classes, those classes are child of its factory that is an abstract class that defines methods.
 
 Factory method solves some problem:
 
