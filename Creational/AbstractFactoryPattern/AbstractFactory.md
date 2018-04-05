@@ -1,10 +1,10 @@
 # Abstract Factory Pattern
 
-In the Abstract Factory Pattern, an abstract factory defines what objects the non-abstract or concrete factory will need to be able to create.
+Abstract Factory Pattern defines what objects the non-abstract or concrete factory will need to be able to create.
 
-The concrete factory must create the correct objects for it's context, insuring that all objects created by the concrete factory have been chosen to be able to work correctly for a given circumstance.
+The concrete factory must create the correct objects for it's context, ensuring that all objects created by the concrete factory have been chosen to be able to work correctly for a given circumstance.
 
-It provides an interface for creating families of related or dependent > objects without specifying their concrete classes.
+It provides an interface for creating families of related or dependent objects without specifying their concrete classes.
 
 ## When to use It
 
@@ -12,7 +12,7 @@ You need to use Abstract Factory Pattern when you have some classes created for 
 
 The purpose is to create series of related or dependent objects without specifying their concrete classes.
 
-This means that you have an abstract class with Its abstract methods and Its subclasses must implement those methods.
+This means that you have an abstract class with its abstract methods and its subclasses must implement those methods.
 
 ## Consequences
 
