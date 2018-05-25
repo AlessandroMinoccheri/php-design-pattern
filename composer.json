@@ -1,0 +1,15 @@
+{
+    "name": "alessandrominoccheri/php-design-pattern",
+    "authors": [
+        {
+            "name": "Alessandro Minoccheri",
+            "email": "alessandro@studiomado.it"
+        }
+    ],
+    "require": {},
+    "autoload" : {
+        "psr-4" : {
+            "" : "src/"
+        }
+    }
+}
