@@ -1,5 +1,7 @@
 <?php
 
+namespace FactoryMethod;
+
 class Vehicle
 {
     private $currency;

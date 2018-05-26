@@ -1,5 +1,10 @@
 <?php
 
+use FactoryMethod\ItalianFactory;
+use FactoryMethod\USAFactory;
+
+require '../../vendor/autoload.php';
+
 $italyShop = new ItalianFactory();
 $italyVehicle = $italyShop->createVehicle();
 $italyCurrency = $italyVehicle->getCurrency();

@@ -1,5 +1,7 @@
 <?php
 
+namespace FactoryMethod;
+
 class ItalianFactory extends Shop
 {
     const CURRENCY = 'EUR';
