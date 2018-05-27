@@ -10,3 +10,11 @@ The project is already in develop so sometimes I'll update It with a new pattern
 * [Factory Method](https://github.com/AlessandroMinoccheri/php-design-pattern/blob/master/Creational/FactoryMethod/FactoryMethod.md) 
 * [Abstract Factory](https://github.com/AlessandroMinoccheri/php-design-pattern/blob/master/Creational/AbstractFactory/AbstractFactory.md) 
  
+## Tests
+
+Be sure to have PHP 7.0 minimum into your machine.
+To run test suite you need to launch from your cli:
+
+```
+./vendor/bin/phpunit
+```
