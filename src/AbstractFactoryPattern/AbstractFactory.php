@@ -4,5 +4,5 @@ namespace AbstractFactoryPattern;
 
 abstract class AbstractFactory
 {
-    abstract public function createProduct();
+    abstract public function createVehicle($name);
 }

@@ -2,18 +2,26 @@
 
 namespace FactoryMethod\Tests;
 
-use FactoryMethod\ItalianFactory;
-use FactoryMethod\Vehicle;
+use AbstractFactoryPattern\Vehicle;
+use AbstractFactoryPattern\CarFactory;
+use AbstractFactoryPattern\BicycleFactory;
 use PHPUnit\Framework\TestCase;
 
 class AbstractFactoryTest extends TestCase
 {
-    public function testCanCreateVehicle()
+    public function testCreateShirt()
     {
-        $factory = new ItalianFactory();
-        $vehicle = $factory->createVehicle();
+        $factory = new CarFactory();
+        $car = $factory->createVehicle('Ferrari');
 
-        $this->assertInstanceOf(Vehicle::class, $vehicle);
-        $this->assertEquals(ItalianFactory::CURRENCY, $vehicle->getCurrency());
+        $this->assertInstanceOf(Vehicle::class, $car);
+    }
+
+    public function testCreateShoes()
+    {
+        $factory = new BicycleFactory();
+        $bicycle = $factory->createVehicle('Bianchi');
+
+        $this->assertInstanceOf(Vehicle::class, $bicycle);
     }
 }

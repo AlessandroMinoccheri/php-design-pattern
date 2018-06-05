@@ -2,7 +2,7 @@
 
 namespace AbstractFactoryPattern;
 
-class Shirt
+class Car extends Vehicle
 {
     //do something here
 }
