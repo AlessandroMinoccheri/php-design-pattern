@@ -10,6 +10,7 @@ The project is already in develop so sometimes I'll update It with a new pattern
 * [Factory Method](https://github.com/AlessandroMinoccheri/php-design-pattern/blob/master/Creational/FactoryMethod/FactoryMethod.md) 
 * [Abstract Factory](https://github.com/AlessandroMinoccheri/php-design-pattern/blob/master/Creational/AbstractFactory/AbstractFactory.md) 
 * [Prototype](https://github.com/AlessandroMinoccheri/php-design-pattern/blob/master/Creational/Prototype/Prototype.md) 
+* [Service Locator](https://github.com/AlessandroMinoccheri/php-design-pattern/blob/master/Creational/ServiceLocator/ServiceLocator.md) 
  
 ## Tests
 
