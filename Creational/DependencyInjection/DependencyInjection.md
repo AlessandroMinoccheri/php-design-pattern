@@ -13,13 +13,13 @@ Example
 This is a class that doesn't use dependency injection pattern:
 
 ```
-class Text 
+class User 
 {
-    private $jsonParser;
+    private $settings;
     
     public function __construct()
     {
-        $this->jsonParser = new JsonParser();
+        $this->settings = new Settings();
     }
 
 }
@@ -29,22 +29,22 @@ class Text
 Instantiating this class would go like this:
 
 ```
-$text = new Text();
+$user = new User();
 ```
 
-Very basic, but now let’s assume this text needs to work with a different collaborator.  
+Very basic, but now let’s assume this user needs to work with a different collaborator or different values of it.  
 We would need to extend the class and overwrite the constructor. 
 
-However, we would inject the collaborator into the text class like so:
+However, we would inject the collaborator into the user class like so:
 
 ```
-class Text 
+class User 
 {
-    private $parser;
+    private $settings;
     
-    public function __construct($parser)
+    public function __construct($settings)
     {
-        $this->parser = $parser;
+        $this->settings = $settings;
     }
 
 }
@@ -54,10 +54,10 @@ class Text
 And instantiate it:
 
 ```
-$jsonParser = new JsonParser();
-$text = new Text($jsonParser);
+$settings = new Settings();
+$user = new User($settings);
 ```
 
-In this way you can change parser without modify Text class, you have decoupled your code, make it more testable (because you can Mock parser class) and reusable because you are working with collaborators. 
+In this way you can change Settings without modify User class, you have decoupled your code, make it more testable (because you can mock Settings class) and reusable because you are working with collaborators. 
 
 
