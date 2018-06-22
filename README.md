@@ -13,6 +13,10 @@ The project is already in develop so sometimes I'll update It with a new pattern
 * [Service Locator](https://github.com/AlessandroMinoccheri/php-design-pattern/blob/master/Creational/ServiceLocator/ServiceLocator.md) 
 * [Dependency Injection](https://github.com/AlessandroMinoccheri/php-design-pattern/blob/master/Creational/DependencyInjection/DependencyInjection.md) 
  
+## Structural
+
+* [Composite](https://github.com/AlessandroMinoccheri/php-design-pattern/blob/master/Structural/Composite/Composite.md) 
+
 ## Tests
 
 Be sure to have PHP 7.0 minimum into your machine.
