@@ -17,6 +17,7 @@ The project is already in develop so sometimes I'll update It with a new pattern
 
 * [Composite](https://github.com/AlessandroMinoccheri/php-design-pattern/blob/master/Structural/Composite/Composite.md) 
 * [Decorator](https://github.com/AlessandroMinoccheri/php-design-pattern/blob/master/Structural/Decorator/Decorator.md) 
+* [Facade](https://github.com/AlessandroMinoccheri/php-design-pattern/blob/master/Structural/Facade/Facade.md) 
 
 ## Tests
 
