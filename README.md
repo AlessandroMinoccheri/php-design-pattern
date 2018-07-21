@@ -19,6 +19,7 @@ The project is already in develop so sometimes I'll update It with a new pattern
 * [Decorator](https://github.com/AlessandroMinoccheri/php-design-pattern/blob/master/Structural/Decorator/Decorator.md) 
 * [Facade](https://github.com/AlessandroMinoccheri/php-design-pattern/blob/master/Structural/Facade/Facade.md) 
 * [Strategy](https://github.com/AlessandroMinoccheri/php-design-pattern/blob/master/Structural/Strategy/Strategy.md) 
+* [Observer](https://github.com/AlessandroMinoccheri/php-design-pattern/blob/master/Structural/Observer/Observer.md) 
 
 ## Tests
 
