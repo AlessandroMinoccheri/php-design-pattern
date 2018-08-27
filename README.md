@@ -24,6 +24,11 @@ The project is already in develop so sometimes I'll update It with a new pattern
 * [Command](https://github.com/AlessandroMinoccheri/php-design-pattern/blob/master/Structural/Command/Command.md) 
 * [Null Object](https://github.com/AlessandroMinoccheri/php-design-pattern/blob/master/Structural/NullObject/NullObject.md) 
 
+## Enterprise
+
+* [Registry](https://github.com/AlessandroMinoccheri/php-design-pattern/blob/master/Enterprise/Registry/Registry.md) 
+
+
 ## Tests
 
 Be sure to have PHP 7.0 minimum into your machine.
