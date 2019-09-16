@@ -9,7 +9,7 @@ use PHPUnit\Framework\TestCase;
 
 class AbstractFactoryTest extends TestCase
 {
-    public function testCreateShirt()
+    public function testCreateCar()
     {
         $factory = new CarFactory();
         $car = $factory->createVehicle('Ferrari');
@@ -17,7 +17,7 @@ class AbstractFactoryTest extends TestCase
         $this->assertInstanceOf(Vehicle::class, $car);
     }
 
-    public function testCreateShoes()
+    public function testCreateBicycle()
     {
         $factory = new BicycleFactory();
         $bicycle = $factory->createVehicle('Bianchi');
